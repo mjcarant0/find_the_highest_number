@@ -9,7 +9,7 @@ def highest_number(var1, var2, var3, var4, var5):
         return var3
     elif var4 > var1 and var4 > var2 and var4 > var3 and var4 > var5:
         return var4
-    elif var5 > var1 and var5 > var2 and var5 > var3 and var1 > var4:
+    elif var5 > var1 and var5 > var2 and var5 > var3 and var5 > var4:
         return var5
     else:
         return "Error"
@@ -22,3 +22,4 @@ var5 = int(input("Please input your fifth number: "))
 #Create a variable for the result
 result = highest_number(var1, var2, var3, var4, var5)
 #Print the result of finding the highest number
+print(f"The highest number is: {result}")
