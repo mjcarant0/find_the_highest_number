@@ -14,7 +14,11 @@ def highest_number(var1, var2, var3, var4, var5):
     else:
         return "Error"
 #Create a variable to store the user's 5 numbers
-
+var1 = int(input("Please input your first number: "))
+var2 = int(input("Please input your second number: "))
+var3 = int(input("Please input your third number: "))
+var4 = int(input("Please input your fourth number: "))
+var5 = int(input("Please input your fifth number: "))
 #Create a variable for the result
 
 #Print the result of finding the highest number
