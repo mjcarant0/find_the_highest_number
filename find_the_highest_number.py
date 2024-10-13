@@ -20,5 +20,5 @@ var3 = int(input("Please input your third number: "))
 var4 = int(input("Please input your fourth number: "))
 var5 = int(input("Please input your fifth number: "))
 #Create a variable for the result
-
+result = highest_number(var1, var2, var3, var4, var5)
 #Print the result of finding the highest number
